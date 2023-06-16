@@ -8,7 +8,7 @@ const Data=(e)=>{
   setValue(e.target.value)
 };
   return (
-    <div id="parent">
+    <div className="parent">
        <h1>Parent Component</h1>
        <p>{Value}</p>
        <Child value={Data}/>
