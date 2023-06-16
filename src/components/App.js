@@ -1,19 +1,9 @@
 
 import React, { useState } from "react";
 import './../styles/App.css';
-import Child from "./Child"
+import Parent from "./Parent";
 const App = () => {
-const [Value,setValue]=useState("");
-const Data=(e)=>{
-  setValue(e.target.value)
-};
-  return (
-    <div>
-       <h1>Parent Component</h1>
-       <p>{Value}</p>
-       <Child value={Data}/>
-    </div>
-  )
+<Parent/>
 }
 
 export default App
